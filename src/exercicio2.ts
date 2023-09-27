@@ -1,11 +1,7 @@
 class Operacao {
-  x: number = 10;
-  y: number = 100;
-  constructor(x: number, y: number) {
-    this.x = x;
-    this.y = y;
-  }
-  somar(): number {
+  public constructor(private x: number, private y: number) {}
+
+  public somar(): number {
     return this.x + this.y;
   }
 }
