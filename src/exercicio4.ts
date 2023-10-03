@@ -10,5 +10,5 @@ export default class Carro{
     }
 }
 
-//const carro = new Carro("VW","Gol");
-//console.log(carro);
+const carro = new Carro("VW","Gol");
+console.log(carro);
