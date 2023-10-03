@@ -13,6 +13,7 @@
     "sete": "ts-node ./src/exercicio7",
     "oito": "ts-node ./src/exercicio8",
     "nove": "ts-node ./src/exercicio9",
+    "dez": "ts-node ./src/exercicio10",
     "start": "ts-node ./src"
   },
   "keywords": [],
