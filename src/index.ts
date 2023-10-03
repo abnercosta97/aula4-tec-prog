@@ -10,9 +10,9 @@ class Pessoa{
 }
 
 console.log(Pessoa.cont);
-const a = new Pessoa("abner"); // recebe endereço de um obejeto tipo "Pessoa" exemplo e200
-const b = new Pessoa("Jessica");
+const aa = new Pessoa("abner"); // recebe endereço de um obejeto tipo "Pessoa" exemplo e200
+const bb = new Pessoa("Jessica");
 
-console.log(a.nome);
-console.log(b.nome);
+console.log(aa.nome);
+console.log(bb.nome);
 console.log(Pessoa.cont);
