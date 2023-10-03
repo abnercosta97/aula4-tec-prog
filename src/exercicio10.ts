@@ -3,11 +3,7 @@ class Numero {
     return Math.floor(Math.random() * 100);
   }
 }
-class Categoria extends Numero {
-  public aleatorio(): number {
-    return super.aleatorio();
-  }
-}
+class Categoria extends Numero {}
 class Teste extends Categoria {
   public aleatorio(): number {
     return super.aleatorio();
